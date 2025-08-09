@@ -1,0 +1,107 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+
+}
+.title{
+    position: relative;
+}
+.title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+
+}
+.title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+.contact_section{
+    display: flex;
+    gap: 150px;
+}
+.contact_left{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.contact_left h1{
+    font-size: 80px;
+    font-weight: 700;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact_left p{
+    max-width: 550px;
+    color: rgb(219, 219, 213);
+    font-size: 20px;
+    line-height: 35px;
+}
+.contact_details{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: beige;
+    font-size: 22px;
+}
+.contact_detail{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+
+}
+.right label{
+    color: rgb(219, 219, 219);
+    font-size: 22px;
+    font-weight: 500;
+}
+.right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #cccccc;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.right textarea{
+    width: 650px;
+    border: none;
+    padding: 25px;
+    border-radius: 4px;
+    background: #32323c;
+    color: #cccccc;
+    font-family: Outfit;
+    font-size: 20px;
+}
+.contact_submit{
+    border: none;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(264deg, #DF8908 -5.09%, #B415FF 106.28%);
+    font-size: 22px;
+    padding: 20px 60px;
+    margin-bottom: 50px;
+    transition: 0.3s;
+}
+.contact_submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
