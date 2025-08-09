@@ -1,11 +1,11 @@
 import React from "react";
 import './Hero.css';
-import profile_img from '../../assets/profile_img.svg';
+import profile_img from '../../assets/profile_img.jpg';
 
 const Hero = () => {
     return (
         <div className="hero">
-            <img src={profile_img} alt="" />
+            <img src={profile_img} alt="" style={{height : "400px", borderRadius: "500px"}}/>
             <h1>Hi, I'm <span>Atul Kumar</span></h1>
             <h2>I’m a passionate software engineer who loves turning complex problems into simple, elegant solutions. </h2>
             <p>From developing a multiplayer chess game and review system to experimenting with new frameworks and automation, I believe in learning by doing and constantly pushing the limits of what I can create.</p>

@@ -26,6 +26,36 @@
     font-family: "Playwrite HU", cursive;
     font-size: 65px;
 }
+.hero p{
+    font-style: italic;
+}
 .hero h2{
     max-width: 1400px;
+}
+
+.hero-actions{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.hero-connect{
+    padding: 25px 45px;
+    border-radius: 50px;
+    background:  linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    cursor: pointer;
+}
+.hero-resume{
+    padding: 25px 75px;
+    border-radius: 50px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.hero-connect:hover{
+    border: 2px solid white;
+}
+.hero-resume:hover{
+    border-color: #b415ff;
 }
