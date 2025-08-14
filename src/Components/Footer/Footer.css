@@ -62,3 +62,32 @@
     transform: scale(1.1);
     transition: 0.3s;
 }
+@media(max-width:768px){
+.footer{
+    margin: 50px 70px;
+
+}
+.footer_top{
+   flex-direction: column;
+   gap: 50px;
+}
+
+.footer_bottom{
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 50px;
+}
+.footer_top_left h1{
+    margin-bottom: 30px;
+}
+.footer_top_right{
+    width: 100%;
+    gap: 20px;
+}
+.footer_email_input{
+    width: 65%;
+}
+.footer_subscribe{
+    padding: 20px 30px;
+}
+}
